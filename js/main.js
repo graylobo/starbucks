@@ -48,7 +48,7 @@ window.addEventListener('scroll', _.throttle(function () {
 // _.throttle(함수,시간)
 
 toTopEl.addEventListener('click', function(){
-  gsap.to(window, 0.7,{
+  gsap.to(window, .7,{
     scrollTo:0
   });
 });
